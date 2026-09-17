@@ -1,0 +1,46 @@
+name: Java CI
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+    name: Compile Java Programs
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v5
+
+      - name: Set up JDK
+        uses: actions/setup-java@v5
+        with:
+          java-version: "17"
+          distribution: "temurin"
+
+      - name: Check Java Version
+        run: |
+          java -version
+          javac -version
+
+      - name: Find Java Files
+        run: |
+          echo "Java files in repository:"
+          find . -name "*.java"
+
+      - name: Compile Java Programs
+        run: |
+          mkdir -p build
+          find . -name "*.java" -not -path "./build/*" > sources.txt
+          javac -d build @sources.txt
+
+      - name: Build Successful
+        run: echo "All Java programs compiled successfully!"
