@@ -33,14 +33,13 @@ jobs:
 
       - name: Find Java Files
         run: |
-          echo "Java files in repository:"
-          find . -name "*.java"
+          echo "Java files found:"
+          find . -type f -name "*.java" -print
 
       - name: Compile Java Programs
         run: |
           mkdir -p build
-          find . -name "*.java" -not -path "./build/*" > sources.txt
-          javac -d build @sources.txt
+          find . -type f -name "*.java" -print0 | xargs -0 javac -d build
 
       - name: Build Successful
         run: echo "All Java programs compiled successfully!"
