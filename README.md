@@ -1,57 +1,63 @@
-# Data-Structures_Java
+# Data Structures in Java
 
-This repository is mainly created to learn and practice Java through the daily coding work given during our Java sessions and the homework problems assigned to us.
+This repository contains Java practice programs, class exercises, and homework assignments completed during the course. It is organized into two main folders:
 
-The purpose of this repository is to keep all my Java practice programs in one place and track my progress as I learn Data Structures and improve my problem-solving skills.
+- `Class Work` for in-class coding practice
+- `Home Work` for assignments and problem-solving exercises
 
-## 📚 What This Repository Contains
+## Repository Structure
 
-- Daily coding programs from Java sessions
-- Homework problems
-- Data Structures practice
-- Problem-solving programs
-- Java coding exercises
-- Practice programs based on different concepts
+### Class Work
 
-## 📂 Programs
-
-### 🏫 Class Work
-
-The `CWcode` files contain the programs and problems completed during the Java sessions.
+The files in this folder include Java programs and small practice exercises such as:
 
 - `CWcode1.java`
 - `CWcode2.java`
+- `CWcode3.java`
+- `CWcode4.java`
+- `CWcode5.java`
+- `CWcode6.java`
+- `CWcode7.java`
+- `CWcode8.java`
+- `CWcode9.java`
+- `Main.java`
 
-### 🏠 Home Work
+### Home Work
 
-The `HWcode` files contain the homework problems given during the Java sessions.
+The homework folder contains assignment-based Java programs and problem solutions, including:
 
 - `HWcode1.java`
 - `HWcode2.java`
+- `HWcode3.java`
+- `HWcode4.java`
+- `HWcode5.java`
+- `HWcode6.java`
+- `HWcode7.java`
+- `HWcode8.java`
+- `HWcode9.java`
+- `HWcode10.java`
 
-## 🎯 Purpose
+## Purpose
 
-The main purpose of this repository is to:
+This project is used to:
 
-- Practice Java regularly
-- Complete the daily coding tasks
-- Solve the assigned homework problems
-- Understand Data Structures and Algorithms
-- Improve logical and problem-solving skills
-- Maintain a record of my coding practice and progress
+- practice Java programming
+- strengthen logic and problem-solving skills
+- learn core programming concepts
+- work on data structures and algorithmic thinking
+- keep classwork and homework organized in one place
 
-## 🛠️ Language Used
+## Language
 
-**Java**
+Java
 
-## 📈 Learning Journey
+## Notes
 
-This repository will be updated regularly as I continue learning Java, Data Structures, and Algorithms.
+- The repository includes compiled `.class` files generated during execution as part of local practice.
+- The Java source files are the main source of learning and submission work.
 
-> Learn → Code → Practice → Improve 🚀
+## Author
 
-## 👨‍💻 Author
-
-**Anand**
+Anand
 
 B.Tech Artificial Intelligence & Data Science
