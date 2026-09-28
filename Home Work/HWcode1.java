@@ -22,7 +22,7 @@ class Solution {
 
     public static void main(String[] args) {
 
-        CWcode10 obj = new CWcode10();
+        HWcode1 obj = new HWcode1();
 
         int[] nums = {1, 2, 3, 1};
         int k = 3;
