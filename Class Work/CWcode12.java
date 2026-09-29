@@ -2,13 +2,10 @@ import java.util.Scanner;
 
 public class CWcode12 {
     public static void main(String[] args) {
-
         Scanner scanner = new Scanner(System.in);
-
         System.out.print("Enter expression (e.g., 25 - 8): ");
         String input = scanner.nextLine();
         String cleanInput = "";
-
         for (int i = 0; i < input.length(); i++) {
             char c = input.charAt(i);
 
@@ -16,7 +13,6 @@ public class CWcode12 {
                 cleanInput = cleanInput + c;
             }
         }
-
         char operator = ' ';
         int operatorIndex = -1;
 
@@ -31,7 +27,6 @@ public class CWcode12 {
                 break;
             }
         }
-
         if (operatorIndex == -1) {
             System.out.println("Invalid");
             return;
