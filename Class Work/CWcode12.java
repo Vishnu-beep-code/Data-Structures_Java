@@ -35,7 +35,7 @@ public class CWcode12 {
         }
 
         if (operatorIndex == -1) {
-            System.out.println("No valid operator found.");
+            System.out.println("Invalid");
             return;
         }
 
