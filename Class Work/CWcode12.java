@@ -7,8 +7,6 @@ public class CWcode12 {
 
         System.out.print("Enter expression (e.g., 25 - 8): ");
         String input = scanner.nextLine();
-
-        // Remove spaces manually
         String cleanInput = "";
 
         for (int i = 0; i < input.length(); i++) {
@@ -38,8 +36,6 @@ public class CWcode12 {
             System.out.println("Invalid");
             return;
         }
-
-        // Convert first number
         double num1 = 0;
 
         for (int i = 0; i < operatorIndex; i++) {
@@ -50,8 +46,6 @@ public class CWcode12 {
 
             num1 = num1 * 10 + digit;
         }
-
-        // Convert second number
         double num2 = 0;
 
         for (int i = operatorIndex + 1; i < cleanInput.length(); i++) {
@@ -64,8 +58,6 @@ public class CWcode12 {
         }
 
         double result = 0;
-
-        // Perform operation
         if (operator == '+') {
             result = num1 + num2;
         }
